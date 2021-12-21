@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/img_related"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_200sdp"
+        />
+
+    <TextView
+        android:id="@+id/item_Pd_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_12ssp"
+        android:gravity="center"
+        tools:text="dess"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryVariant"
+        />
+
+    <TextView
+        android:id="@+id/item_Pd_title_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_8ssp"
+        tools:text="dess"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Pd_Title"
+        />
+
+    <TextView
+        android:id="@+id/item_Pd_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_12ssp"
+        android:gravity="center"
+        tools:text="dess"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryVariant"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Pd_title_desc"
+        />
+
+    <TextView
+        android:id="@+id/item_Pd_old_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_12ssp"
+        android:gravity="center"
+        tools:text="dess"
+        android:layout_gravity="center"
+        android:background="@drawable/strike_through"
+        android:textColor="@color/colorPrimary"
+        />
+
+</LinearLayout>
